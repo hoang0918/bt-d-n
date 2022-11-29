@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VNBook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <h1>VNBook</h1>
+    <p> Welcome to VNBook</p>
+  </div>
+
+ <div class="navbar">
+    <a href="#">Homepage</a>
+    <a href="#">Sách mới cập nhật</a>
+    <a href="#">Giỏ hàng</a>
+    
+    <div class="dropdown">
+        <button class="dropbtn"> Thể loại
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="#">Văn học</a>
+            <a href="#">Kinh Tế</a>
+            <a href="#">Tâm lý -Kỹ năng sống</a>
+            <a href="#">Sách thiếu nhi </a>
+            <a href="#">Tiểu sử -Hồi kí</a>
+            <a href="#">Giáo khoa -Kham thảo </a>
+            <a href="#">Sách học ngoại ngữ</a>
+            <a href="#">Sách được yêu thích</a>
+            <a href="#">Sách được đọc nhiều nhất</a>        
+ </div>
+     </div>
+         </div>
+ <div class="capnhat"> Các cuốn sách mới cập nhật</div>
+ 
+ <div class="list_grid_out">
+ <ul class="list_grid grid" id="list_new">
+ 
+ <li>
+ <div class="book_avatar">
+ <a href="#">
+<img class="center" src="./fategrand-order-epic-of-remnant-shimosa_1552441211.jpg" alt="Fate/Grand Order: Epic Of Remnant - Shimosa">
+<div class="top-notice">
+<span class="time-ago">1 Phút Trước</span>                    
+<span class="type-label hot">Hot</span>                
+</div>
+ </a>
+ </li>
+ 
+
+ <li>
+ <div class="book_avatar">
+ <a href="#">
+<img class="center" src="./fate-extra_1668396344.jpg" alt="Fate Extra">
+<div class="top-notice">
+  <span class="time-ago">2 Phút Trước</span>                  
+<span class="type-label hot">Hot</span>                
+</div>
+ </a>
+ </li>
+ 
+ <li>
+ <div class="book_avatar">
+ <a href="#">
+<img class="center" src="./kiep-truoc-du-toi-la-kiem-de-nhung-kiep-nay-lai-la-mot-ten-hoang-tu-rac-ruoi_1648646379.jpg" alt="Kiếp Trước Dù Tôi Là Kiếm Đế, Nhưng Kiếp Này Lại Là Một Tên Hoàng Tử Rác Rưởi">
+<div class="top-notice">
+  <span class="time-ago">3 Phút Trước</span>                  
+<span class="type-label hot">Hot</span>                
+</div>
+ </a>
+ </li>
+ 
+ <li>
+ <div class="book_avatar">
+ <a href="#">
+<img class="center" src="./tougen-anki_1621008393.jpg" alt="Tougen Anki">
+<div class="top-notice">
+  <span class="time-ago">4 Phút Trước</span>                  
+<span class="type-label hot">Hot</span>                
+</div>
+ </a>
+ </li>
+ 
+ 
+ <li>
+ <div class="book_avatar">
+ <a href="#">
+<img class="center" src="./helmut-dua-tre-bi-ruong-bo_1662031481.jpg" alt="Helmut the forsaken child">
+<div class="top-notice">
+  <span class="time-ago">5 Phút Trước</span>                  
+<span class="type-label hot">Hot</span>                
+</div>
+ </a>
+ </li>
+ 
+ <li>
+ <div class="book_avatar">
+ <a href="#">
+<img class="center" src="./nang-dau-thuong-quy-tokyo_1665469509.jpg" alt="Nàng dâu thượng quỷ tokyo">
+<div class="top-notice">
+  <span class="time-ago">6 Phút Trước</span>                  
+<span class="type-label hot">Hot</span>                
+</div>
+ </a>
+ </li>
+ 
+ <li>
+ <div class="book_avatar">
+ <a href="#">
+<img class="center" src="./new-game_1529843978.jpg" alt="New game">
+<div class="top-notice">
+  <span class="time-ago">7 Phút Trước</span>                  
+<span class="type-label hot">Hot</span>                
+</div>
+ </a>
+ </li>
+ 
+ 
+ <li>
+ <div class="book_avatar">
+ <a href="#">
+<img class="center" src="./remonster_1444887232.jpg" alt="Re Monster">
+<div class="top-notice">
+  <span class="time-ago">8 Phút Trước</span>                  
+<span class="type-label hot">Hot</span>                
+</div>
+ </a>
+ </li>
+ 
+ <li>
+ <div class="book_avatar">
+ <a href="#">
+<img class="center" src="./toaru-kagaku-no-accelerator_1610334441.jpg" alt="Toaru kagaku no accellerator">
+<div class="top-notice">
+  <span class="time-ago">9 Phút Trước</span>                  
+<span class="type-label hot">Hot</span>                
+</div>
+ </a>
+ </li>
+ 
+ <li>
+ <div class="book_avatar">
+ <a href="#">
+<img class="center" src="./tomo-chan-wa-onnanoko_1513948603.jpg" alt="Tomo-chan wa onnanoko">
+<div class="top-notice">
+  <span class="time-ago">10 Phút Trước</span>                  
+<span class="type-label hot">Hot</span>                
+</div>
+ </a>
+ </li>
+ 
+ <li>
+ <div class="book_avatar">
+ <a href="#">
+<img class="center" src="./diner_1540043312.jpg" alt="Diner">
+<div class="top-notice">
+  <span class="time-ago">11 Phút Trước</span>                  
+<span class="type-label hot">Hot</span>                
+</div>
+ </a>
+ </li>
+
+
+ <div id="dong_ho">
+  <h2>VN TIME</h2>
+  <div id="thoi_gian">
+      <div>
+          <span id="gio">00</span><span>Giờ</span>
+      </div>
+      <div>
+            <span id="phut">00</span><span>Phút</span>
+      </div>
+      <div>
+          <span id="giay">00</span><span>Giây</span>
+      </div>
+  </div>
+</div>
+ 
+<script src="./javascript.js"></script>
+ </body>
+ 
+
+<html>

@@ -1,0 +1,251 @@
+*{box-sizing: border-box;}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .Characters {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f900;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+
+.header h1 {
+  font-size: 40px;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+.navbar a.right {
+  float: right;
+}
+
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.row {  
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+
+.side {
+  -ms-flex: 30%; 
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+
+.main {   
+  -ms-flex: 70%; 
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+ 
+.capnhat{
+height:75px;
+background-color: red;
+font-size: 30px;
+}
+
+.list_grid_out{
+    font-family: Quicksand,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #e4e6eb;
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    margin-left: 0;
+}
+.list_grid grid{
+    font-family: Quicksand,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #e4e6eb;
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    list-style: outside none none;
+}
+
+.book_avatar{
+    font-family: Quicksand,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #e4e6eb;
+    list-style: outside none none;
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    height: 220px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 6px;
+    position: relative;
+}
+.top-notice{
+    font-family: Quicksand,sans-serif;
+    font-weight: 400;
+    color: #e4e6eb;
+    list-style: outside none none;
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    position: absolute;
+    top: 9px;
+    left: 8px;
+    font-size: 0;
+    }
+
+.time-ago{
+    font-family: Quicksand,sans-serif;
+    list-style: outside none none;
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    vertical-align: baseline;
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+    padding: 2px 6px 3px;
+    border-radius: 5px;
+    background-color: #56ccf2;
+    margin-right: 5px;
+    }
+   .type-label hot { font-family: Quicksand,sans-serif;
+    list-style: outside none none;
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    vertical-align: baseline;
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+    padding: 2px 6px 3px;
+    border-radius: 5px;
+    animation: pulse 1s steps(5, start) infinite;
+    background-color: #ff2853;
+    }
